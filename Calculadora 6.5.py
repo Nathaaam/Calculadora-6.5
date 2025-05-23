@@ -7,7 +7,8 @@ while True:
     print("""seleccione opcion
             1- Sumar 
             2- Resta
-            3- Salir
+            3- Multiplicar
+            4- Salir
         """)
 
     valor = int(input("Elige una opcion: ") )
@@ -19,9 +20,11 @@ while True:
         print("la resta es",num1-num2)
         break;
     if valor == 3:
+        print('la multiplicacion es',num1*num2)
+        break;
+    if valor == 4:
         print(' SALIR ')
         break;
-    
     else:
         print("Opcion incorrecta")
         break;
