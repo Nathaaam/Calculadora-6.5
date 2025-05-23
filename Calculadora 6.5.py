@@ -1,6 +1,6 @@
 num1 = int(input("numero 1: ")) 
 num2 = int(input("numero 2: "))
-
+num3 = int(input("numero 3: ")) 
 
 valor = 0
 while True:
@@ -9,7 +9,8 @@ while True:
             2- Resta
             3- Multiplicar
             4- Dividir
-            4- Salir
+            5- Sumar 3 valores
+            6- Salir
         """)
 
     valor = int(input("Elige una opcion: ") )
@@ -27,6 +28,9 @@ while True:
         print('la division es',num1/num2)
         break;
     if valor == 5:
+        print("la suma es",num1+num2+num3)
+        break;
+    if valor == 6:
         print(' SALIR ')
         break;
     else:
