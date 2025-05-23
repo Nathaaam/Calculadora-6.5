@@ -8,6 +8,7 @@ while True:
             1- Sumar 
             2- Resta
             3- Multiplicar
+            4- Dividir
             4- Salir
         """)
 
@@ -23,6 +24,9 @@ while True:
         print('la multiplicacion es',num1*num2)
         break;
     if valor == 4:
+        print('la division es',num1/num2)
+        break;
+    if valor == 5:
         print(' SALIR ')
         break;
     else:
